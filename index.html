@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>left</title>
+    <title>Hotels</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
 
 <body>
-    <header class="flex items-center justify-between p-[20px] max-w-[1300px] mx-auto">
+    <header class="flex items-center justify-between p-[20px] max-w-[1440px] mx-auto">
         <div class="w-[50px] h-[50px]"></div>
         <div class="flex gap-[30px] text-[20px] text-[#222222]">
             <p>Booking</p>
@@ -20,6 +20,81 @@
         </div>
         <a class="px-[20px] py-[10px] bg-[#24AB70] text-white rounded-[35px]" href="./src/login.html">Login</a>
     </header>
+    <section class="bg-white p-6 md:p-12 font-sans mb-[50px] max-w-[1440px] mx-auto">
+
+        <div
+            class="relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-stretch rounded-[50px] overflow-visible">
+
+            <div
+                class="bg-[#F6FBFA] p-10 md:p-20 flex flex-col justify-center rounded-l-[50px] rounded-r-[50px] md:rounded-r-none relative z-10">
+
+                <h1 class="text-black text-5xl md:text-6xl font-bold leading-tight mb-6">
+                    Find your perfect place to stay
+                </h1>
+
+                <p class="text-gray-500 text-lg leading-relaxed mb-10 max-w-md">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+
+
+            </div>
+
+            <div class="w-full relative">
+                <div class="absolute inset-0 rounded-r-[50px] overflow-hidden">
+                    <img src="./forimgs/image (6).png" alt="" class="w-full h-full object-cover object-left">
+                </div>
+            </div>
+
+            <div class="absolute top-[370px]  left-6 right-6 md:left-20 md:right-20 z-30 transform translate-y-1/2">
+                <div
+                    class="bg-white p-4 md:p-6 rounded-full shadow-2xl flex items-center gap-3 border border-gray-100 flex-wrap md:flex-nowrap justify-between">
+
+                    <div class="flex items-center gap-3 p-3 flex-grow border-r border-gray-100 last:border-r-0">
+                        <div class="text-[#24AB70] text-xl"><img src="./forimgs/pin 1.png " alt=""></div>
+                        <div>
+                            <div class="text-black font-bold text-sm">Location</div>
+                            <input type="text" placeholder="United States"
+                                class="text-gray-400 text-xs w-full focus:outline-none placeholder:text-gray-400">
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-3 p-3 flex-grow border-r border-gray-100 last:border-r-0">
+                        <div class="text-[#24AB70] text-xl"><img src="./forimgs/calendar 1.png" alt=""></div>
+                        <div>
+                            <div class="text-black font-bold text-sm">Check in</div>
+                            <input type="text" placeholder="10 Jun 2021"
+                                class="text-gray-400 text-xs w-full focus:outline-none placeholder:text-gray-400">
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-3 p-3 flex-grow border-r border-gray-100 last:border-r-0">
+                        <div class="text-[#24AB70] text-xl"><img src="./forimgs/calendar 1.png" alt=""></div>
+                        <div>
+                            <div class="text-black font-bold text-sm">Check out</div>
+                            <input type="text" placeholder="15 Jun 2021"
+                                class="text-gray-400 text-xs w-full focus:outline-none placeholder:text-gray-400">
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-3 p-3 flex-grow">
+                        <div class="text-[#24AB70] text-xl"><img src="./forimgs/person 1.png" alt=""></div>
+                        <div>
+                            <div class="text-black font-bold text-sm">Rooms for</div>
+                            <input type="text" placeholder="1 room, 2 guests"
+                                class="text-gray-400 text-xs w-full focus:outline-none placeholder:text-gray-400">
+                        </div>
+                    </div>
+
+                    <button
+                        class="bg-[#24AB70] relative text-white px-8 py-4 md:py-5 rounded-full flex items-center gap-3 font-semibold hover:bg-[#1e8f5d] transition-all whitespace-nowrap w-[200px]  justify-center shadow-lg">
+                        <span class="text-xl"><img src="./forimg/search-outline 1.png" alt=""></span>
+                        Search...
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 </body>
